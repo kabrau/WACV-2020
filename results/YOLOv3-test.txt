@@ -1,0 +1,8 @@
+Images Loading ...  F:/datasets/door_e_indoor/dataset/test/
+Model Loadind ... F:/datasets/door_e_indoor/dataset/training/yolo/yolo.h5
+ascending_stair: 0.9073
+closed_door: 0.2398
+descending_stair: 0.8377
+elevator_door: 0.4728
+opened_door: 0.4341
+mAP: 0.5783

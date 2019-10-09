@@ -1,0 +1,28 @@
+1 - Get dataset from 
+    https://drive.google.com/drive/folders/1J_p7FK7FFQeoYBZsViU3kBqOIu9b4cvA?usp=sharing
+
+
+2 - unzip, eg: F:\datasets\door_stair\
+
+
+3 - export annotations to ExportPascal
+    1 - clone https://github.com/kabrau/PyImageRoi
+    2 - python ExportToPascal.py -p F:\datasets\door_stair\images -a F:\datasets\door_stair\annotations -className opened_door closed_door elevator_door ascending_stair descending_stair
+
+
+4 - Split
+    To split images (train 70%, validation 15%, test 15%)
+    1 - clone https://github.com/kabrau/PyImageRoi
+    2 - python SplitPascal.py  -p F:\datasets\door_stair\annotations -i F:\datasets\door_stair\images -s F:\datasets\door_stair\
+
+
+4 - Create tfrecords
+    1 - clone https://github.com/kabrau/PyImageRoi
+
+    python ExportPascal2csv.py -p F:\datasets\door_stair\train.ann -o F:\datasets\door_stair\train.csv
+    python ExportPascal2csv.py -p F:\datasets\door_stair\valid.ann -o F:\datasets\door_stair\valid.csv
+    python ExportPascal2csv.py -p F:\datasets\door_stair\test.ann -o F:\datasets\door_stair\test.csv
+
+    python Generate_TFRecord.py --csv_input=F:\datasets\door_stair\train.csv  --output_path=F:\datasets\door_stair\train.record --images_path=F:\datasets\door_stair\train
+    python Generate_TFRecord.py --csv_input=F:\datasets\door_stair\valid.csv  --output_path=F:\datasets\door_stair\valid.record --images_path=F:\datasets\door_stair\valid
+    python Generate_TFRecord.py --csv_input=F:\datasets\door_stair\test.csv  --output_path=F:\datasets\door_stair\test.record --images_path=F:\datasets\door_stair\test

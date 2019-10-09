@@ -1,0 +1,40 @@
+{
+    "model" : {
+        "min_input_size":       288,
+        "max_input_size":       448,
+        "anchors":              [54,74, 78,184, 107,320, 139,159, 182,241, 185,377, 270,366, 359,379, 362,230],
+        "labels":               ["opened_door","closed_door","elevator_door","ascending_stair","descending_stair"]
+    },
+
+    "train": {
+        "train_image_folder":   "F:/datasets/door_stair/train/",
+        "train_annot_folder":   "F:/datasets/door_stair/train.ann/",     
+        "cache_name":           "F:/datasets/door_stair/cache/config_yolo_train.pkl",
+
+        "train_times":          8,
+        "batch_size":           10,
+        "learning_rate":        1e-4,
+        "nb_epochs":            100,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.5,
+        "gpus":                 "0",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "F:/datasets/door_stair/logs",
+        "saved_weights_name":   "F:/datasets/door_stair/training/YOLO_v3/yolo.h5",
+        "debug":                false
+    },
+
+    "valid": {
+        "valid_image_folder":   "F:/datasets/door_stair/valid/",
+        "valid_annot_folder":   "F:/datasets/door_stair/valid.ann/",
+        "cache_name":           "F:/datasets/door_stair/cache/config_yolo_valid.pkl",
+
+        "valid_times":          1
+    }
+}

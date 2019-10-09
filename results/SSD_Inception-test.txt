@@ -1,0 +1,41 @@
+F:/datasets/door_e_indoor/dataset/result/SSD_Inception\
+=========  F:/datasets/door_e_indoor/dataset/result/SSD_Inception\   ===========
+Chart path :  F:/datasets/door_e_indoor/dataset/result/SSD_Inception\_chart
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_Inception\opened_door.txt
+PRECISION opened_door 0.4406779661016949 0.9100000000000006
+RECALL opened_door 0.86 0.0
+F opened_door 0.4925373134328358 0.6100000000000003
+Simple Recall 1.0 0.9100000000000006
+Simple Precision 0.5423728813559322 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_Inception\closed_door.txt
+PRECISION closed_door 0.7777777777777778 0.9200000000000006
+RECALL closed_door 0.8780487804878049 0.0
+F closed_door 0.56 0.6900000000000004
+Simple Recall 1.0 0.9200000000000006
+Simple Precision 0.7777777777777778 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_Inception\elevator_door.txt
+PRECISION elevator_door 0.9795918367346939 0.7400000000000004
+RECALL elevator_door 0.8275862068965517 0.0
+F elevator_door 0.7710843373493976 0.07
+Simple Recall 0.9425287356321839 0.7400000000000004
+Simple Precision 1.0 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_Inception\ascending_stair.txt
+PRECISION ascending_stair 1.0 0.3000000000000001
+RECALL ascending_stair 0.9560439560439561 0.0
+F ascending_stair 0.9497206703910613 0.11999999999999998
+Simple Recall 0.967032967032967 0.3000000000000001
+Simple Precision 1.0 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_Inception\descending_stair.txt
+PRECISION descending_stair 0.75 0.9200000000000006
+RECALL descending_stair 0.875 0.0
+F descending_stair 0.75 0.9200000000000006
+Simple Recall 0.95 0.9200000000000006
+Simple Precision 0.8 0.0
+
+---- mAPs of   ---
+opened_door 0.3257373858909606
+closed_door 0.5106443396908745
+elevator_door 0.7457885137972521
+ascending_stair 0.9514811685460804
+descending_stair 0.6354110992936766
+mAP: 0.6338125014437688

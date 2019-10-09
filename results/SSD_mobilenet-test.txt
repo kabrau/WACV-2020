@@ -1,0 +1,41 @@
+F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\
+=========  F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\   ===========
+Chart path :  F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\_chart
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\opened_door.txt
+PRECISION opened_door 0.3684210526315789 0.9200000000000006
+RECALL opened_door 0.8 0.0
+F opened_door 0.3925233644859813 0.9200000000000006
+Simple Recall 1.0 0.7500000000000004
+Simple Precision 0.5194805194805194 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\closed_door.txt
+PRECISION closed_door 0.3333333333333333 0.9100000000000006
+RECALL closed_door 0.8378378378378378 0.0
+F closed_door 0.3870967741935484 0.6700000000000004
+Simple Recall 1.0 0.6600000000000004
+Simple Precision 0.3333333333333333 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\elevator_door.txt
+PRECISION elevator_door 1.0 0.7400000000000004
+RECALL elevator_door 0.8732394366197183 0.0
+F elevator_door 0.75 0.04
+Simple Recall 0.971830985915493 0.7400000000000004
+Simple Precision 1.0 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\ascending_stair.txt
+PRECISION ascending_stair 1.0 0.5700000000000003
+RECALL ascending_stair 0.946236559139785 0.0
+F ascending_stair 0.9297297297297297 0.060000000000000005
+Simple Recall 0.956989247311828 0.5700000000000003
+Simple Precision 1.0 0.0
+class -> F:/datasets/door_e_indoor/dataset/result/SSD_mobilenet\descending_stair.txt
+PRECISION descending_stair 0.7837837837837838 0.9100000000000006
+RECALL descending_stair 0.8536585365853658 0.0
+F descending_stair 0.7435897435897435 0.9100000000000006
+Simple Recall 0.975609756097561 0.9100000000000006
+Simple Precision 0.8648648648648649 0.0
+
+---- mAPs of   ---
+opened_door 0.23246285140520884
+closed_door 0.21877305914627201
+elevator_door 0.7777936783560359
+ascending_stair 0.9368994764790467
+descending_stair 0.6443648771382398
+mAP: 0.5620587885049606
