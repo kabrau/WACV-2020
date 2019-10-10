@@ -7,9 +7,9 @@
     },
 
     "train": {
-        "train_image_folder":   "F:/datasets/door_stair/train/",
-        "train_annot_folder":   "F:/datasets/door_stair/train.ann/",     
-        "cache_name":           "F:/datasets/door_stair/cache/config_yolo_train.pkl",
+        "train_image_folder":   "F:/datasets/door_e_indoor/dataset/test/",
+        "train_annot_folder":   "F:/datasets/door_e_indoor/dataset/test.ann/",     
+        "cache_name":           "F:/datasets/door_e_indoor/dataset/cache/config_yolo_train.pkl",
 
         "train_times":          8,
         "batch_size":           10,
@@ -25,15 +25,15 @@
         "xywh_scale":           1,
         "class_scale":          1,
 
-        "tensorboard_dir":      "F:/datasets/door_stair/logs",
+        "tensorboard_dir":      "F:/datasets/door_e_indoor/dataset/logs",
         "saved_weights_name":   "F:/datasets/door_stair/training/YOLO_v3/yolo.h5",
         "debug":                false
     },
 
     "valid": {
-        "valid_image_folder":   "F:/datasets/door_stair/test/",
-        "valid_annot_folder":   "F:/datasets/door_stair/test.ann/",
-        "cache_name":           "F:/datasets/door_stair/cache/config_yolo_test.pkl",
+        "valid_image_folder":   "F:/datasets/door_e_indoor/dataset/test/",
+        "valid_annot_folder":   "F:/datasets/door_e_indoor/dataset/test.ann/",
+        "cache_name":           "F:/datasets/door_e_indoor/dataset/cache/config_yolo_test.pkl",
 
         "valid_times":          1
     }
