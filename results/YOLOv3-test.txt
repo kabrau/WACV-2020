@@ -1,8 +1,17 @@
 Images Loading ...  F:/datasets/door_e_indoor/dataset/test/
-Model Loadind ... F:/datasets/door_e_indoor/dataset/training/yolo/yolo.h5
-ascending_stair: 0.9073
+Model Loadind ... F:/datasets/door_stair/training/YOLO_v3/yolo.h5
+compute mAP for all the classes
+ascending_stair: 0.9063
 closed_door: 0.2398
 descending_stair: 0.8377
 elevator_door: 0.4728
 opened_door: 0.4341
-mAP: 0.5783
+mAP: 0.5781
+
+
+FPS: 36.53321175932347
+Sum: 9.224483251571655
+Count: 337
+stdev: 0.0015901041564128982
+Average: 0.02737235386223043
+variance: 2.5284312282415746e-06
