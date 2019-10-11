@@ -1,0 +1,30 @@
+F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\
+=========  F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\   ===========
+Chart path :  F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\_chart
+class -> F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\opened_door.txt
+PRECISION opened_door 0.5103092783505154 0.9400000000000006
+RECALL opened_door 0.9611650485436893 0.0
+F opened_door 0.6666666666666666 0.9400000000000006
+Simple Recall 1.0 0.9400000000000006
+Simple Precision 0.5309278350515464 0.0
+class -> F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\closed_door.txt
+PRECISION closed_door 0.6666666666666666 0.9400000000000006
+RECALL closed_door 0.991869918699187 0.0
+F closed_door 0.6901960784313725 0.9400000000000006
+Simple Recall 1.0 0.9400000000000006
+Simple Precision 0.6742424242424242 0.0
+class -> F:\datasets\door_stair/resultVideos/Faster_Inception-door-5/temporal\elevator_door.txt
+PRECISION elevator_door 0 0
+RECALL elevator_door 0 0
+F elevator_door -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+
+---- mAPs of   ---
+opened_door 0.49049144229806824
+closed_door 0.5700868075659146
+elevator_door 0.0
+mAP: 0.3535260832879943
+
+
+

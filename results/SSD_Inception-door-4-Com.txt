@@ -1,0 +1,30 @@
+F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\
+=========  F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\   ===========
+Chart path :  F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\_chart
+class -> F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\opened_door.txt
+PRECISION opened_door 0 0
+RECALL opened_door 0 0
+F opened_door -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+class -> F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\closed_door.txt
+PRECISION closed_door 0.2638888888888889 0.9200000000000006
+RECALL closed_door 0.17886178861788618 0.0
+F closed_door 0.19512195121951217 0.8900000000000006
+Simple Recall 1.0 0.9400000000000006
+Simple Precision 0.6774193548387096 0.0
+class -> F:\datasets\door_stair/resultVideos/SSD_Inception-door-4/temporal\elevator_door.txt
+PRECISION elevator_door 0.023529411764705882 0.0
+RECALL elevator_door 0.057971014492753624 0.0
+F elevator_door 0.03347280334728033 0.0
+Simple Recall 0.5652173913043478 0.0
+Simple Precision 0.22941176470588234 0.0
+
+---- mAPs of   ---
+opened_door 0.0
+closed_door 0.043083427958866764
+elevator_door 0.0013640238704177323
+mAP: 0.014815817276428165
+
+
+

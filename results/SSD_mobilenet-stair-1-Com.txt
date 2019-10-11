@@ -1,0 +1,23 @@
+F:\datasets\door_stair/resultVideos/SSD_mobilenet-stair-1/temporal\
+=========  F:\datasets\door_stair/resultVideos/SSD_mobilenet-stair-1/temporal\   ===========
+Chart path :  F:\datasets\door_stair/resultVideos/SSD_mobilenet-stair-1/temporal\_chart
+class -> F:\datasets\door_stair/resultVideos/SSD_mobilenet-stair-1/temporal\ascending_stair.txt
+PRECISION ascending_stair 1.0 0.5400000000000003
+RECALL ascending_stair 0.9327731092436975 0.0
+F ascending_stair 0.6359447004608296 0.05
+Simple Recall 1.0 0.5400000000000003
+Simple Precision 1.0 0.0
+class -> F:\datasets\door_stair/resultVideos/SSD_mobilenet-stair-1/temporal\descending_stair.txt
+PRECISION descending_stair 0 0
+RECALL descending_stair 0 0
+F descending_stair -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+
+---- mAPs of   ---
+ascending_stair 0.7117768191811054
+descending_stair 0.0
+mAP: 0.3558884095905527
+
+
+

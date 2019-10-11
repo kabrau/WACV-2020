@@ -1,0 +1,30 @@
+F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\
+=========  F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\   ===========
+Chart path :  F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\_chart
+class -> F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\opened_door.txt
+PRECISION opened_door 0 0
+RECALL opened_door 0 0
+F opened_door -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+class -> F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\closed_door.txt
+PRECISION closed_door 1.0 0.9000000000000006
+RECALL closed_door 0.630057803468208 0.0
+F closed_door 0.48101265822784806 0.4000000000000002
+Simple Recall 0.9653179190751445 0.8200000000000005
+Simple Precision 1.0 0.0
+class -> F:\datasets\door_stair/resultVideos/SSD_mobilenet-door-3/temporal\elevator_door.txt
+PRECISION elevator_door 0 0
+RECALL elevator_door 0 0
+F elevator_door -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+
+---- mAPs of   ---
+opened_door 0.0
+closed_door 0.432825833025507
+elevator_door 0.0
+mAP: 0.14427527767516898
+
+
+

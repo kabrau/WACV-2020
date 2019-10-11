@@ -1,0 +1,23 @@
+F:\datasets\door_stair/resultVideos/SSD_Inception-stair-4/temporal\
+=========  F:\datasets\door_stair/resultVideos/SSD_Inception-stair-4/temporal\   ===========
+Chart path :  F:\datasets\door_stair/resultVideos/SSD_Inception-stair-4/temporal\_chart
+class -> F:\datasets\door_stair/resultVideos/SSD_Inception-stair-4/temporal\ascending_stair.txt
+PRECISION ascending_stair 1.0 0.18000000000000002
+RECALL ascending_stair 0.25 0.0
+F ascending_stair 0.23880597014925373 0.02
+Simple Recall 1.0 0.02
+Simple Precision 1.0 0.0
+class -> F:\datasets\door_stair/resultVideos/SSD_Inception-stair-4/temporal\descending_stair.txt
+PRECISION descending_stair 0 0
+RECALL descending_stair 0 0
+F descending_stair -1.0 0
+Simple Recall 0 0
+Simple Precision 0 0
+
+---- mAPs of   ---
+ascending_stair 0.11257736516357207
+descending_stair 0.0
+mAP: 0.056288682581786036
+
+
+
