@@ -2,10 +2,10 @@ set datasetFolder=F:/datasets/door_e_indoor/dataset
 rem F:/datasets/door_stair
 set projectFolder=E:/GitHub/WACV-2020
 
-goto EvalFASTER
+rem goto EvalFASTER
 goto EvalSSD
-goto EvalMobile
-rem goto EvalYOLO
+rem goto EvalMobile
+goto EvalYOLO
 
 goto FIM
 
@@ -48,6 +48,9 @@ set dataset=test
 
 cd E:\GitHub\keras-yolo3
 python evaluate.py -c %projectFolder%\config\config_yolo.json -e %projectFolder%\config\config_yolo_test.json > %projectFolder%/results/%modelName%-%dataset%.txt
+rem python yolo_evaluate_models.py -c %projectFolder%\config\config_yolo.json -i %datasetFolder%/%dataset%/ -o %datasetFolder%/result/%modelName%-%dataset%
+rem cd E:\GitHub\PyImageRoi\source
+rem python mAP.py -a=%datasetFolder%/%dataset%.ann -c opened_door closed_door elevator_door ascending_stair descending_stair -i 0.2 -s 0.0 -r=%datasetFolder%/result/%modelName%-%dataset% > %projectFolder%/results/%modelName%-%dataset%.txt
 
 goto FIM
 
@@ -61,7 +64,7 @@ cd E:\GitHub\PyImageRoi\source
 
 set dataset=test
 python object_detection_evaluate_models.py -i=%datasetFolder%/%dataset%/ -l=%projectFolder%/config/label_map.pbtxt -f=%datasetFolder%/inference/%modelName%/frozen_inference_graph.pb -o=%datasetFolder%/result/%modelName%-%dataset%
-python mAP.py -a=%datasetFolder%/%dataset%.ann -c opened_door closed_door elevator_door ascending_stair descending_stair -i 0.5 -s 0.0 -r=%datasetFolder%/result/%modelName%-%dataset% > %projectFolder%/results/%modelName%-%dataset%.txt
+python mAP.py -a=%datasetFolder%/%dataset%.ann -c opened_door closed_door elevator_door ascending_stair descending_stair -i 0.45 -s 0.0 -r=%datasetFolder%/result/%modelName%-%dataset% > %projectFolder%/results/%modelName%-%dataset%.txt
 
 rem set dataset=valid
 rem python object_detection_evaluate_models.py -i=%datasetFolder%/%dataset%/ -l=%projectFolder%/config/label_map.pbtxt -f=%datasetFolder%/inference/%modelName%/frozen_inference_graph.pb -o=%datasetFolder%/result/%modelName%-%dataset%
